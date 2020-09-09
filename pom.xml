@@ -4,7 +4,7 @@
   <groupId>nsvgrp</groupId>
   <artifactId>nsv</artifactId>
   <packaging>war</packaging>
-  <version>5-SNAPSHOT</version>
+  <version>7-SNAPSHOT</version>
   <name>nsv Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>

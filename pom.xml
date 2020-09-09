@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nsvgrp</groupId>
+  <artifactId>nsv</artifactId>
+  <packaging>war</packaging>
+  <version>5-SNAPSHOT</version>
+  <name>nsv Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>nsv</finalName>
+  </build>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>deployment</id>
+	  <name>snapshots</name>
+      <url>http://34.72.252.181:8081/repository/maven-snapshots/</url>
+   </snapshotRepository>
+</distributionManagement>
+</project>
